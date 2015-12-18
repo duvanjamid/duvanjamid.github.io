@@ -48,12 +48,16 @@
 
 .electron {
     background-color: #2C3E50;
+    border: 1px solid #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
     width: 9px;
     height: 9px;
     margin-left: -6px;
+    -webkit-animation: change-color 2.5s infinite linear;
+    -o-animation: change-color 2.5s infinite linear;
+    animation: change-color 2.5s infinite linear;
 }
 
 .proton,
@@ -186,6 +190,63 @@
         -ms-transform: rotate(360deg);
         -o-transform: rotate(360deg);
         transform: rotate(360deg);
+    }
+}
+
+
+/*-- Animación background --*/
+
+@-webkit-keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: orange;
+    }
+}
+
+@-moz-keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: orange;
+    }
+}
+
+@keyframes change-color {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: orange;
     }
 }
 
