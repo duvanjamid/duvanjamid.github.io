@@ -1,0 +1,8 @@
+title: Duvan Jamid Vargas
+description: Personal page
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
