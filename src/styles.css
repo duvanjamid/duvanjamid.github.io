@@ -5,6 +5,22 @@
 }
 
 @media (prefers-color-scheme: dark) {
+    :root,
+    html,
+    .ms-slidebar,
+    .ms-preload {
+        background-color: #111111;
+    }
+
+    .ms-slidebar .ms-slidebar-menu > li > a.link {
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .img-avatar-circle {
+        border: solid 5px #111;
+    }
+
     body {
         color: #cecece;
         background-color: #111111;

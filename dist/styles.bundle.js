@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n\n@media (prefers-color-scheme: light) {\n}\n\n@media (prefers-color-scheme: dark) {\n    body {\n        color: #cecece;\n        background-color: #111111;\n    }\n\n    body .ms-site-container {\n        background-color: #111111;\n    }\n\n    .card {\n        background: #1a1a1a;\n    }\n\n    .bg-light {\n        background-color: #1a1a1a !important;\n    }\n}\n", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n\n@media (prefers-color-scheme: light) {\n}\n\n@media (prefers-color-scheme: dark) {\n    :root,\n    html,\n    .ms-slidebar,\n    .ms-preload {\n        background-color: #111111;\n    }\n\n    .ms-slidebar .ms-slidebar-menu > li > a.link {\n        color: #fff;\n        background-color: transparent;\n    }\n\n    .img-avatar-circle {\n        border: solid 5px #111;\n    }\n\n    body {\n        color: #cecece;\n        background-color: #111111;\n    }\n\n    body .ms-site-container {\n        background-color: #111111;\n    }\n\n    .card {\n        background: #1a1a1a;\n    }\n\n    .bg-light {\n        background-color: #1a1a1a !important;\n    }\n}\n", ""]);
 
 // exports
 
