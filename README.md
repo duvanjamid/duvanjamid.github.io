@@ -3,4 +3,4 @@
 
 Personal web page
 
-[duvanjvargas.com](http://duvanjvargas.com/) 
+[duvanjamid.github.io](http://duvanjamid.github.io)
